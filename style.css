@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+body {
+    background: rgb(21,25,27);
+    color: white;
+    font-family: 'Ruluko', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+}
+.navbar li {
+    display: block;
+    margin: 5px 0px 5px 5px;
+}
+
+h2 {
+    font-size: 48px;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+}
+
+.container div {
+    width: 50vw;
+    background-color: rgb(122,122,123);
+    margin: 20px;
+    border-radius: 30px;
+}
